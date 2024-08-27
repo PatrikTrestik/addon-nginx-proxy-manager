@@ -12,10 +12,7 @@ arch:
   - amd64
   - armv7
 hassio_api: true
-ports:
-  80/tcp: 80
-  81/tcp: 81
-  443/tcp: 443
+host_network: true
 map:
   - addon_config:rw
 backup_exclude:
